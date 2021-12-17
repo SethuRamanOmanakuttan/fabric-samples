@@ -219,7 +219,7 @@ func (s *SmartContract) GetAllAssets(ctx contractapi.TransactionContextInterface
 func main() {
 	// See chaincode.env.example
 	config := serverConfig{
-		CCID:    os.Getenv("CHAINCODE_ID"),
+		CCID:    os.Getenv("CHAINCODE_CCID"),
 		Address: os.Getenv("CHAINCODE_ADDRESS"),
 	}
 
