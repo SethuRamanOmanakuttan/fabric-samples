@@ -1,5 +1,9 @@
 {
-  "address": "external-chaincode-basic:9999",
-  "dial_timeout": "30s",
-  "tls_required": false
+  "address": "chaincode-basic-carrier.carrier-net:7052",
+  "dial_timeout": "40s",
+  "tls_required": false,
+  "client_auth_required": false,
+  "client_key": "-----BEGIN EC PRIVATE KEY----- ... -----END EC PRIVATE KEY-----",
+  "client_cert": "-----BEGIN CERTIFICATE----- ... -----END CERTIFICATE-----",
+  "root_cert": "-----BEGIN CERTIFICATE---- ... -----END CERTIFICATE-----"
 }
